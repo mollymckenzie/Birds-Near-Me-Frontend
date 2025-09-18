@@ -1,7 +1,7 @@
 const birdsDiv = document.getElementById("birds");
 
-// Replace this with your deployed backend URL from Render
-const BACKEND_URL = "https://birds-widget.onrender.com/api/birds";
+
+const BACKEND_URL = "https://birds-near-me-backend.onrender.com";
 
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(success, error);
